@@ -1,0 +1,53 @@
+ul li:nth-child(3){
+	color:red;
+}
+
+ul li:nth-child(4){
+	color:red;
+}
+
+ol li:nth-child(2){
+	font-size:24px;
+}
+
+ol li:nth-child(4){
+	font-size:24px;
+}
+
+div {
+	height:100px;
+	width:100px;
+	background-color:red;
+}
+
+div:nth-of-type(2) {
+    color:white;
+}
+
+p:first-child {
+	font-style: italic;
+}
+
+button:hover {
+	background-color:blue;
+}
+
+button:active {
+	clip-path: 
+    polygon(
+      0% 20px,                 /* top left */
+      20px 0%,                 /* top left */
+      calc(100% - 20px) 0%,    /* top right */
+      100% 20px,               /* top right */
+      100% calc(100% - 20px),  /* bottom right */
+      calc(100% - 20px) 100%,  /* bottom right */
+      20px 100%,               /* bottom left */
+      0 calc(100% - 20px)      /* bottom left */
+    );
+	border-width:11px;
+	border-color:black;
+	height:200px;
+	width:150px;
+}
+
+
